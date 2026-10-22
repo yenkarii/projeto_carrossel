@@ -1,0 +1,54 @@
+:root{
+    --laranja: rgb(255, 90, 54);
+    --amarelo: rgb(255, 238, 140);
+    --azul: rgb(62, 12, 212);
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 99vw;
+    height: 98.7vh;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+
+    border: 0.01rem solid;
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+button{
+    cursor:pointer;
+    background-color: transparent;
+    border: none;
+    transition: 0.3s ease-in-out;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    background-color: rgb(181, 194, 181);
+}
+
+#carousel{
+    width: 50%;
+    height: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
